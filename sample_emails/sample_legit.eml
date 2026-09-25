@@ -1,0 +1,18 @@
+Message-ID: <legit-thread-001@mailer.example.com>
+Date: Mon, 15 Sep 2025 09:12:03 +0000
+From: "Priya Sharma" <priya.sharma@example.com>
+To: "Rahul Verma" <rahul.verma@example.org>
+Subject: Q3 Budget Review
+Authentication-Results: mx.example.org; spf=pass smtp.mailfrom=example.com; dkim=pass header.d=example.com; dmarc=pass
+Received: by mail.example.org with SMTP id abc123; Mon, 15 Sep 2025 09:12:10 +0000
+Received: from mx-in.example.org (mx-in.example.org [203.0.113.42]) by mail.example.org with ESMTPS; Mon, 15 Sep 2025 09:12:08 +0000
+Received: from mail-out.example.com (mail-out.example.com [198.51.100.17]) by mx-in.example.org with ESMTPS; Mon, 15 Sep 2025 09:12:05 +0000
+Content-Type: text/plain; charset="utf-8"
+
+Hi Rahul,
+
+Attaching the Q3 budget summary for review ahead of Thursday's call.
+Let me know if the numbers for the APAC region look right to you.
+
+Thanks,
+Priya

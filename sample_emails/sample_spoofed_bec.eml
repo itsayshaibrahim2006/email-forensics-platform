@@ -1,0 +1,19 @@
+Message-ID: <urgent-wire-2025091501@freemailrelay.net>
+Date: Mon, 15 Sep 2025 14:03:00 +0000
+From: "CEO Office" <ceo@example.com>
+To: "Finance Team" <finance@example.com>
+Subject: URGENT: Wire Transfer Approval Needed Today
+Authentication-Results: mx.example.com; spf=fail smtp.mailfrom=freemailrelay.net; dkim=none; dmarc=fail
+Received: by mail.example.com with SMTP id xyz789; Mon, 15 Sep 2025 14:03:05 +0000
+Received: from relay-node-9.freemailrelay.net (relay-node-9.freemailrelay.net [185.220.101.7]) by mail.example.com with SMTP; Mon, 15 Sep 2025 14:02:10 +0000
+Received: from unknown (unknown [45.155.205.233]) by relay-node-9.freemailrelay.net with SMTP; Mon, 15 Sep 2025 14:03:00 +0000
+Content-Type: text/plain; charset="utf-8"
+
+Finance Team,
+
+I need you to process an urgent wire transfer of $48,500 to a new vendor
+account before end of day. I'm in back-to-back board meetings and can't
+take calls — please confirm by email once sent.
+
+Regards,
+CEO

@@ -1,0 +1,22 @@
+Message-ID: <legit-thread-002@mailer.example.org>
+In-Reply-To: <legit-thread-001@mailer.example.com>
+References: <legit-thread-001@mailer.example.com>
+Date: Mon, 15 Sep 2025 10:47:21 +0000
+From: "Rahul Verma" <rahul.verma@example.org>
+To: "Priya Sharma" <priya.sharma@example.com>
+Subject: Re: Q3 Budget Review
+Authentication-Results: mx.example.com; spf=pass smtp.mailfrom=example.org; dkim=pass header.d=example.org; dmarc=pass
+Received: by mail.example.com with SMTP id def456; Mon, 15 Sep 2025 10:47:28 +0000
+Received: from mx-in.example.com (mx-in.example.com [203.0.113.88]) by mail.example.com with ESMTPS; Mon, 15 Sep 2025 10:47:25 +0000
+Received: from mail-out.example.org (mail-out.example.org [198.51.100.203]) by mx-in.example.com with ESMTPS; Mon, 15 Sep 2025 10:47:22 +0000
+Content-Type: text/plain; charset="utf-8"
+
+Hi Priya,
+
+Numbers look right for APAC. I'll flag the EMEA variance on the call.
+
+On Mon, 15 Sep 2025, Priya Sharma wrote:
+> Attaching the Q3 budget summary for review ahead of Thursday's call.
+> Let me know if the numbers for the APAC region look right to you.
+
+Rahul
