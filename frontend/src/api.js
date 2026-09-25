@@ -1,19 +1,31 @@
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:8000";
+const API_BASE_URL =
+  import.meta.env.VITE_API_BASE_URL ||
+  "https://email-forensics-platform-y8mc.onrender.com";
 
 async function request(path, options = {}) {
   const res = await fetch(`${API_BASE_URL}${path}`, options);
+
   if (!res.ok) {
     const text = await res.text().catch(() => res.statusText);
     throw new Error(`API error ${res.status}: ${text}`);
   }
+
   return res;
 }
 
 export const api = {
   async uploadEmails(files) {
     const form = new FormData();
-    for (const file of files) form.append("files", file);
-    const res = await request("/api/emails/upload", { method: "POST", body: form });
+
+    for (const file of files) {
+      form.append("files", file);
+    }
+
+    const res = await request("/api/emails/upload", {
+      method: "POST",
+      body: form,
+    });
+
     return res.json();
   },
 
@@ -28,7 +40,10 @@ export const api = {
   },
 
   async summarizeThread(threadId) {
-    const res = await request(`/api/threads/${threadId}/summarize`, { method: "POST" });
+    const res = await request(`/api/threads/${threadId}/summarize`, {
+      method: "POST",
+    });
+
     return res.json();
   },
 
@@ -38,7 +53,10 @@ export const api = {
   },
 
   async generateReport(emailId) {
-    const res = await request(`/api/reports/${emailId}/generate`, { method: "POST" });
+    const res = await request(`/api/reports/${emailId}/generate`, {
+      method: "POST",
+    });
+
     return res.json();
   },
 
