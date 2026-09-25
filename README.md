@@ -1,3 +1,20 @@
+# Email Forensics Platform
+
+AI-powered email thread detection, geolocation and forensic intelligence platform.
+
+## 🚀 Live Demo
+
+### Frontend
+[Open Live Application](https://email-forensics-platform-two.vercel.app)
+
+### Backend API
+[Backend API](https://email-forensics-platform-y8mc.onrender.com)
+
+### API Documentation
+[FastAPI Swagger Docs](https://email-forensics-platform-y8mc.onrender.com/docs)
+
+## Features
+...
 # AI-Powered Email Thread Detection, Geolocation & Forensic Intelligence Platform
 
 A working full-stack scaffold: upload raw `.eml` files, reconstruct conversation
